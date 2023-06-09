@@ -1,0 +1,139 @@
+@keyframes logo_spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.class_page {
+    margin-top: 300px;
+}
+
+
+.class_menu {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.class_menu .class_icon {
+    width: 100%;
+    margin-top: -200px;
+}
+
+.class_menu div {
+    height: 305px;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    transform: rotate(-3deg);
+    margin: 0px;
+    background-color: #404044;
+}
+
+.class_menu a {
+    text-decoration: none;
+}
+
+.class_menu div h2 {
+    color: #dddddd;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #ffffff;
+}
+
+.class_menu div h2:hover {
+    color: #f08149;
+    filter: brightness(1.3);
+}
+
+.class_menu div span {
+    position: relative;
+}
+
+.class_menu div span img {
+    position: absolute;
+    width: 10%;
+    top: -40px;
+    left: -40px;
+    z-index: 2;
+    animation: logo_spin infinite linear 10s;
+}
+
+.class_menu div span h1 {
+    border: 1px 10px 10px 10px solid #913a1e;
+    background-color: #101011;
+    font-size: 4.0em;
+    color: #dddddd;
+    font-family: WideLatin;
+}
+
+.class_menu div span p {
+    text-justify: distribute;
+}
+
+.meetTheTeam {
+    margin: 40px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.meetTheTeam iframe {
+    width: 90%;
+    height: 720px;
+}
+
+.arsenal {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #dddddd;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.arsenal h2 {
+    background-color: #101011;
+    color: #9a9595;
+    display: block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 15px;
+    width: 100%;
+}
+
+.arsenal div {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+    text-align: center;
+}
+
+.arsenal div img {
+    padding: 10px;
+    background-color: #dddddd;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.arsenal div p {
+    align-self: center;
+    flex-grow: 1;
+}
+
+.paragrafo_classes {
+    padding: 25px;
+    background-color: #ffffff66;
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
