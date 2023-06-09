@@ -1,2 +1,2 @@
-# https://github.com/Eduardo-Pyment/TeamFortress2-Web_Project/blob/main/Team%20Fortress%202/pages/index.html
+# https://eduardo-pyment.github.io/TeamFortress2-Web_Project/
 Projeto de conclusão da disciplina de Introdução a Tecnologia Web
