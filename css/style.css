@@ -148,6 +148,10 @@ footer:after {
     content: "";
 }
 
+footer p {
+    padding-top: 15px;
+}
+
 footer div .valve {
     filter: invert(360);
     padding-left: 30px;
