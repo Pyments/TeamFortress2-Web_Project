@@ -36,12 +36,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    #logo_big img {
-      width: 30%;
-    }
-}
-
 #logo_big img {
     content: "";
     clear: both;
