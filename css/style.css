@@ -111,7 +111,7 @@ main section .subTituloParagrafo {
 
 main p {
     font-family: TF2;
-    text-justify: inter-cluster;
+    text-justify: distribute;
     font-size: 1.5em;
     font-weight: 700;
     text-indent: 10%;
